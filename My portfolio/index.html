@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="script" href="">
+   <script src="https://kit.fontawesome.com/0cdc049c53.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <div id="header">
+      <div class="container">
+         <nav>
+            <ul>
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+         <div class="header-text">
+            <h1>DATA SCIENTIST</h1>
+         </div>
+      </div>
+   </div>
+   <!---------------------------about------------------------------->
+   <div id="about">
+      <div class="container">
+         <div class="row">
+            <div class="slide-in about-col-1">
+               <img src="images/myimg.png">
+            </div>
+            <div class="slide-in about-col-2">
+               <h1 class="sub-title">ABOUT ME</h1>
+               <p>Hey There, I am Shuaib Afnan a Future Data Scientist and This is My Portfolio Website </p>
+               <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+               </div>
+               <div class="tab-contents" id="experience">
+                  <ul>
+                     <li>None</li>
+                  </ul>
+               </div>
+               <div class="tab-contents active-tab" id="education">
+                  <ul>
+                     <li><span>2018</span><br>10th Standard<br>GPA : 9.8</li>
+                     <li><span>2020</span><br>Intermediate<br>GPA : 8.5</li>
+                     <li><span>2024</span><br>Engineering<br>GPA : 9.3</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- ------------------------------skills----------------------------------- -->
+   <div id="skills">
+      <div class="container">
+         <h1 class="sub-title">SKILLS</h1>
+         <div class="skills-list">
+            <div class="Languages">
+               <i class="fa-solid fa-laptop-code"></i>
+               <h2>Programming Languages</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa in dignissimos cumque rem vero expedita laudantium cupiditate! Eius, nesciunt esse? Minus aut porro vero a itaque, dolorum quo nulla excepturi.
+            </div>
+            <div class="Ml">
+               <i class="fa-solid fa-chart-line"></i>
+               <h2>Machine Learning</h2>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum doloremque tenetur libero nobis
+                  tempore facere dicta quaerat minima accusamus! Repudiandae?</p>
+            </div>
+            <div class="Nlp">
+               <i class="fa-solid fa-robot"></i>
+               <h2>Natural Language Processing</h2>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum doloremque tenetur libero nobis
+                  tempore facere dicta quaerat minima accusamus! Repudiandae?</p>
+            </div>
+            <div class="Dl">
+               <i class="fa-regular fa-image"></i>
+               <h2>Deep Learning</h2>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum doloremque tenetur libero nobis
+                  tempore facere dicta quaerat minima accusamus! Repudiandae?</p>
+            </div>
+            <div class="Nlp">
+               <i class="fa-solid fa-magnifying-glass-chart"></i>
+               <h2>Data Science</h2>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum doloremque tenetur libero nobis
+                  tempore facere dicta quaerat minima accusamus! Repudiandae?</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- -----------------------projects------------------------------ -->
+   <div id="projects">
+      <div class="container">
+         <h1 class="sub-title">MY PROJECTS</h1>
+         <div class="work-list">
+            <div class="work">
+               <img src="images/anime_recommender.webp">
+               <div class="layer">
+                  <h3>Anime Recommendation System</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur dignissimos praesentium
+                     repudiandae tempore hic, sit ipsam quod doloremque aut?</p>
+                  <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+               </div>
+            </div>
+            <div class="work">
+               <img src="images/chatbot_nlp.webp">
+               <div class="layer">
+                  <h3>ChatBot</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur dignissimos praesentium
+                     repudiandae tempore hic, sit ipsam quod doloremque aut?</p>
+                  <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+               </div>
+            </div>
+            <div class="work">
+               <img src="images/stock_price_project.jpg">
+               <div class="layer">
+                  <h3>Stock Price Predictor</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur dignissimos praesentium
+                     repudiandae tempore hic, sit ipsam quod doloremque aut?</p>
+                  <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+               </div>
+            </div>
+         </div>
+         <a href="#" class="btn">See More</a>
+      </div>
+   </div>
+   <!-- -------------------------------------contact-------------------------------------- -->
+   <div id="contact">
+      <div class="container">
+         <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">CONTACT ME</h1>
+               <p><i class="fa-solid fa-paper-plane"></i>shuaibafnansk@gmail.com</p>
+               <span class="phone"><p><i class="fa-solid fa-mobile-screen-button"></span></i>7075818209</p>
+               <div class="social-icons">
+                  <a href="https://discordapp.com/users/736225575655440497"><span class="discord"><i class="fa-brands fa-discord"></span></i></a>
+                  <a href="https://instagram.com/shuaib_11x?igshid=ZDdkNTZiNTM="><span class="insta"><i class="fa-brands fa-instagram"></i></span></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><span class="git"><i class="fa-brands fa-github"></span></i></a>
+               </div>
+               <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Name" required>
+                  <input type="email" name="Email" placeholder="Email Id" required>
+                  <textarea name="Message" rows="6" placeholder="Query (or) Feedback" required></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg">Submit Your Message</span>
+            </div>
+         </div>
+      </div>
+      <div class="copyright">
+         <p><span>Copyrighted</span> <span>By</span><span> © </span><span>Shuaib</span> <span>Afnan</span>
+            <i class="fa-regular fa-face-smile"></i>
+         </p>
+      </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
